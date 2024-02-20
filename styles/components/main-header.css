@@ -1,0 +1,21 @@
+.main-header {
+  
+  height: 125px;
+  background-color: var(--primary-001);
+  color: var(--primary-002);
+}
+
+/* navigation */
+
+.main-header .main-nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.main-header .logo span {
+    color:var(--primary-003);
+}
+
+
