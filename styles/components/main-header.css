@@ -1,5 +1,4 @@
 .main-header {
-  
   height: 125px;
   background-color: var(--primary-001);
   color: var(--primary-002);
@@ -10,27 +9,21 @@
 
 
 .main-header .main-nav-list a {
-    position: relative;
+    /* position: relative; */
     text-decoration: none;
     color: inherit;
     font-family: lato-bold;
-}
-
-.main-header .main-nav-list a:hover::before {
-    content: '';
-    position: absolute;
-    bottom: -53.5px;
-    left:-2.1em;
-    right:-2.1em;
-
-    height: 5px;
+    min-height: 125px;
+    min-width: 130px;
+    /* display:grid; */
+    display:grid;
+    place-items:center;
     
-    background-color: var(--primary-004);
 }
-
 
 .main-header .main-nav-list a:hover {
     color: var(--primary-003);
+    border-block-end: 5px solid var(--primary-004);
 }
 
   
