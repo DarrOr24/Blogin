@@ -1,5 +1,6 @@
 .main-layout {
     display: grid;
+    
     grid-template-columns:
       minmax(50px, 1fr)
       minmax(auto, 980px)
@@ -16,6 +17,8 @@
 
 
 /* main-header layout */
+
+
 
 .main-header-text-layout{
     display: grid;
@@ -35,9 +38,9 @@
 /* cards-layout */
 
 .cards-layout {
-    margin-block: 30px;
+    margin-block-start: 50px;
     display: grid;
-    row-gap: 30px;
+    row-gap: 80px;
 }
 
 /* card-layout */

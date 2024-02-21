@@ -9,9 +9,9 @@ html {
 }
   
 body {
-    background-color: aliceblue;
     margin: 0;
     font-size: 0.875rem;
+    background-color: var(--body-background);
 }
   
 img {
@@ -29,14 +29,29 @@ h6 {
   margin: 0 0 0.8em;
 }
 
-a {
-    color: var(--primary-006);
+.main-content {
+    position: relative;
 }
 
-a:hover {
-    text-decoration: none;
-    color: var(--primary-003);
-} 
+.main-content::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -50px;
+    bottom: 0;
+    width: 1px;
+    background-color: var(--primary-008);
+}
+.main-content::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -50px;
+    bottom: 0;
+    width: 1px;
+    background-color: var(--primary-008);
+}
+
 
 .logo {
     font-family: eurofurence, monospace;

@@ -1,11 +1,17 @@
 :root {
 /* colors  */
+--body-background: #FFFFFF;
+--card-text: #606060;
+--card-title: #4F4E4E;
 --primary-001: #292929;
---primary-002:#DEDEDE;
+--primary-002:#A8A8A8;
 --primary-003:#40832F;
 --primary-004: #58C93A;
 --primary-005: #4F4E4E;
 --primary-006:#F1F1F1;
+--primary-007: #F3F2F2;
+--primary-008:#DEDEDE;
+
 
 
 }

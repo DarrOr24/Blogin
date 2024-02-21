@@ -2,8 +2,25 @@
 .card .card-content .card-title{
     text-transform: uppercase;
     font-size: 1.75em;
+    color: var(--card-title);
 }
 
 .card .card-content .card-text {
     font-size: 1em;
+    color: var(--card-text);
+}
+
+.card button {
+    height: 2.1875em;
+    width: 10.9375em;
+    color: var(--primary-008);
+    background-color: var(--body-background);
+    border:1px solid var(--primary-008);
+    border-radius: 20px;
+    
+}
+
+.card button:hover {
+    border:1px solid var(--primary-003); 
+    color: var(--primary-003);
 }

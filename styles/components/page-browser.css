@@ -1,0 +1,14 @@
+.page-browser {
+    border: 1px solid var(--primary-008);
+}
+
+.page-browser button{
+    margin-inline: 50px;
+    height: 50px;
+    border: none;
+    font-family: Lato-Regular;
+    text-transform: uppercase;
+    background-color: var(--body-background);
+    font-size: 1.125em;
+    color: #818181;
+}
