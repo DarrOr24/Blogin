@@ -7,15 +7,36 @@
 
 /* navigation */
 
+
+
 .main-header .main-nav-list a {
+    position: relative;
     text-decoration: none;
     color: inherit;
+    font-family: lato-bold;
+}
+
+.main-header .main-nav-list a:hover::before {
+    content: '';
+    position: absolute;
+    bottom: -53.5px;
+    left:-2.5em;
+    right:-2.5em;
+
+    height: 5px;
+    
+    background-color: var(--primary-004);
 }
 
 
-
-.main-header .logo span {
-    color:var(--primary-003);
+.main-header .main-nav-list a:hover {
+    color: var(--primary-003);
 }
+
+  
+.main-header .logo {
+    font-size: 2.5em;
+}
+
 
 

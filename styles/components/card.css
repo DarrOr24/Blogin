@@ -1,0 +1,9 @@
+
+.card .card-content .card-title{
+    text-transform: uppercase;
+    font-size: 1.75em;
+}
+
+.card .card-content .card-text {
+    font-size: 1em;
+}
