@@ -71,7 +71,6 @@
         
     </main>
 
-
     <footer class="main-footer main-layout full">
         <div class="logo">Blogin<span>.</span></div>
         <small class="footer-rights">
@@ -89,6 +88,12 @@
     <script>
         function toggleMenu() {
             document.body.classList.toggle('menu-open');
+            if (document.body.classList.contains('menu-open')) {
+                document.querySelector('.toggle-menu-btn').innerText = 'X'
+            }
+            else {
+                document.querySelector('.toggle-menu-btn').innerText = '☰'
+            }
         }
     </script>
 </body>

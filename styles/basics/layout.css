@@ -1,3 +1,5 @@
+/* main-layout */
+
 .main-layout {
     display: grid;
     grid-template-columns: 20px 1fr 20px;
@@ -11,7 +13,6 @@
     grid-column: 1 / -1;
 }
 
-
 /* main-header layout */
 
 .main-header-text-layout{
@@ -20,18 +21,10 @@
     align-items: center;
 }
 
-
-/* .main-header .main-nav-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
-}  */
-
 /* cards-layout */
 
 .cards-layout {
-    padding-block-start: 20px;
-   
+    padding-block-start: 30px;
 }
 
 /* card-layout */

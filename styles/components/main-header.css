@@ -8,16 +8,34 @@
 
 .toggle-menu-btn {
     width:max-content;
+    
     justify-self:end;
+    align-self: start;
+    display: none;
+    z-index: 2;
 }
+
+.main-header .logo {
+    font-size: 2.5em;
+    color: #BFBFBF;  
+}
+
+.main-header .main-nav-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+} 
 
 .main-header .main-nav-list a {
     color: inherit;
     font-family: lato-bold;
- 
+    min-height: 125px;
+    min-width: 80px;
+   
     display:grid;
-    
+    place-items:center;
 }
+
 
 .main-header .main-nav-list a:hover {
     color: var(--primary-003);
@@ -25,11 +43,7 @@
 }
 
   
-.main-header .logo {
-    font-size: 2.5em;
-    color: #BFBFBF;
-    
-}
+
 
 
 
