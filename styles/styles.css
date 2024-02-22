@@ -12,6 +12,7 @@
 @import url(components/card.css);
 @import url(components/page-browser.css);
 @import url(components/main-footer.css);
+@import url(components/screen.css);
 
 /* media queries */
 @import url(setup/mq.css);

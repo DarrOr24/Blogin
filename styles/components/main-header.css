@@ -6,14 +6,17 @@
 
 /* navigation */
 
+.toggle-menu-btn {
+    width:max-content;
+    justify-self:end;
+}
+
 .main-header .main-nav-list a {
     color: inherit;
     font-family: lato-bold;
-    min-height: 125px;
-    min-width: 80px;
-   
+ 
     display:grid;
-    place-items:center;
+    
 }
 
 .main-header .main-nav-list a:hover {

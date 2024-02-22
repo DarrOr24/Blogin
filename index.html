@@ -10,6 +10,8 @@
 
 <body class="main-layout">
 
+    <div class="main-screen" onclick="toggleMenu()"></div>
+
     <header class="main-header full main-layout">
         <div class="main-header-text-layout">
             <div class="logo">Blogin<span>.</span></div>
@@ -21,6 +23,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <button class="toggle-menu-btn" type="button" onclick="toggleMenu()">☰</button>
         </div>
     </header>
 
@@ -81,6 +84,12 @@
             <li><a href="#" class="fa-brands fa-behance"></a></li>
             <li><a href="#" class="fa-brands fa-square-dribbble"></a></li>
         </ul>
-    </footer>   
+    </footer> 
+    
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-open');
+        }
+    </script>
 </body>
 </html>
