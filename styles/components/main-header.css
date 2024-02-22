@@ -10,7 +10,7 @@
     color: inherit;
     font-family: lato-bold;
     min-height: 125px;
-    min-width: 130px;
+    min-width: 80px;
    
     display:grid;
     place-items:center;

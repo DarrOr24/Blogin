@@ -1,10 +1,6 @@
 .main-layout {
     display: grid;
-    
-    grid-template-columns:
-      minmax(50px, 1fr)
-      minmax(auto, 980px)
-      minmax(50px, 1fr);  
+    grid-template-columns: 20px 1fr 20px;
 }
 
 .main-layout > *:not(.full) {
@@ -34,19 +30,12 @@
 /* cards-layout */
 
 .cards-layout {
-    padding-block-start: 50px;
-    display: grid;
-    row-gap: 80px;
+    padding-block-start: 20px;
+   
 }
 
 /* card-layout */
 
-.card-layout {
-    margin-inline-end: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px; 
-}
 
 
 
