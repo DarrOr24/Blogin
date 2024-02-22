@@ -30,10 +30,10 @@
     
 }
 
-.main-footer .footer-social li a i {
+.main-footer .footer-social li a {
     color: #E5E5E5;
 }
 
-.main-footer .footer-social li a i:hover {
+.main-footer .footer-social li a:hover {
     color: #516FAD;
 }

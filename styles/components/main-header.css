@@ -6,19 +6,14 @@
 
 /* navigation */
 
-
-
 .main-header .main-nav-list a {
-    /* position: relative; */
-    text-decoration: none;
     color: inherit;
     font-family: lato-bold;
     min-height: 125px;
     min-width: 130px;
-    /* display:grid; */
+   
     display:grid;
     place-items:center;
-    
 }
 
 .main-header .main-nav-list a:hover {
