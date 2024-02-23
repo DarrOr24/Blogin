@@ -1,5 +1,5 @@
 .card .card-content {
-    padding-block-end: 10px;
+    padding: 0 10px 10px; 
 }
 
 .card .card-content .card-title{
@@ -15,12 +15,12 @@
 }
 
 .card button {
+    border:1px solid var(--primary-008);
+    border-radius: 20px;   
     height: 2.1875em;
     width: 10.9375em;
     color: var(--primary-008);
     background-color: var(--body-background);
-    border:1px solid var(--primary-008);
-    border-radius: 20px;   
 }
 
 .card button:hover {
